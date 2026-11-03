@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+.vercel/
+.cloudbase/
+.cloudbase-backup/
+cloudbaserc.local.json
+*.zip
+*.log
+qa/
+dist/
+.portfolio-release.tar.gz
