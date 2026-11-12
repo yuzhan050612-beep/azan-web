@@ -1,7 +1,7 @@
 {
   "format": "tar.gz",
-  "source_commit": "0df288fa1e0abe935f95c3f482143b93e48c67ad",
-  "files": 956,
+  "source_commit": "8a91868e801be6a36d057b722337e0220fd6128f",
+  "files": 1017,
   "parts": [
     {
       "file": "portfolio.tar.gz.part000",
@@ -407,6 +407,22 @@
         }
       ],
       "removed": []
+    },
+    {
+      "source_commit": "8a91868e801be6a36d057b722337e0220fd6128f",
+      "parts": [
+        {
+          "file": "portfolio-update-8a91868e801b.tar.gz.part000",
+          "bytes": 7584854,
+          "sha256": "19e831417a23607127e0b6dd0fb753199501ca7450d9b5e62a03a6e133af362f"
+        }
+      ],
+      "removed": [
+        "dist/assets/previews/meituan-new-year-e48c7d226567-1600.webp",
+        "dist/assets/previews/meituan-new-year-e48c7d226567-960.webp",
+        "dist/assets/previews/rider-safety-9edb4281cedd-1600.webp",
+        "dist/assets/previews/rider-safety-9edb4281cedd-960.webp"
+      ]
     }
   ]
 }
