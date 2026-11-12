@@ -1,7 +1,7 @@
 {
   "format": "tar.gz",
-  "source_commit": "4e346cb81bef6baceb0e7a2cf634b49cf14205f4",
-  "files": 421,
+  "source_commit": "0df288fa1e0abe935f95c3f482143b93e48c67ad",
+  "files": 956,
   "parts": [
     {
       "file": "portfolio.tar.gz.part000",
@@ -363,6 +363,47 @@
           "file": "portfolio-update-4e346cb81bef.tar.gz.part002",
           "bytes": 1014515,
           "sha256": "c6a5b9fbe83cca1e9837119a6b091d74ce34a1a0f8413bb35415a5741dc5388e"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "source_commit": "0df288fa1e0abe935f95c3f482143b93e48c67ad",
+      "parts": [
+        {
+          "file": "portfolio-update-0df288fa1e0a.tar.gz.part000",
+          "bytes": 8388608,
+          "sha256": "944b1bd8815b0c74dd52fdc8136632cb8ddf033a56eb2f722ba506e722cb4e13"
+        },
+        {
+          "file": "portfolio-update-0df288fa1e0a.tar.gz.part001",
+          "bytes": 8388608,
+          "sha256": "8bc5f76a469d4fa66672dad351d80568eca643644007b6214834db0488fbcaa2"
+        },
+        {
+          "file": "portfolio-update-0df288fa1e0a.tar.gz.part002",
+          "bytes": 8388608,
+          "sha256": "997cef0890d3779c1045ccf2bed3606f2a2596ae75f678ddc1d391a9d963a34a"
+        },
+        {
+          "file": "portfolio-update-0df288fa1e0a.tar.gz.part003",
+          "bytes": 8388608,
+          "sha256": "05e2a16cdaec815016b28e4f5ffe529a582e8289d5d77610990389321b668524"
+        },
+        {
+          "file": "portfolio-update-0df288fa1e0a.tar.gz.part004",
+          "bytes": 8388608,
+          "sha256": "0a8b4ea0efeaaa9a16d8242e7a12662087ef4b6d0c16da1389391b0b691c725e"
+        },
+        {
+          "file": "portfolio-update-0df288fa1e0a.tar.gz.part005",
+          "bytes": 8388608,
+          "sha256": "991a6499c2db247f070a55ff8b29aceaabb0fc2343c143a556cb5311ff425662"
+        },
+        {
+          "file": "portfolio-update-0df288fa1e0a.tar.gz.part006",
+          "bytes": 2611641,
+          "sha256": "0bac900667917b2ff27efe799f2a6fe1f071d252fa3c9830c1a741ffd716afa4"
         }
       ],
       "removed": []
