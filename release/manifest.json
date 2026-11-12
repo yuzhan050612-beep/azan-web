@@ -1,7 +1,7 @@
 {
   "format": "tar.gz",
-  "source_commit": "2130a2f983e4ffd40fa6a6f97a2d64d45b18e366",
-  "files": 384,
+  "source_commit": "4e346cb81bef6baceb0e7a2cf634b49cf14205f4",
+  "files": 421,
   "parts": [
     {
       "file": "portfolio.tar.gz.part000",
@@ -342,6 +342,30 @@
       "file": "portfolio.tar.gz.part067",
       "bytes": 6745993,
       "sha256": "3db429c90131d4e2f8849a00c5744a368061343d806e477ebffea9d4f8180bea"
+    }
+  ],
+  "base_source_commit": "2130a2f983e4ffd40fa6a6f97a2d64d45b18e366",
+  "updates": [
+    {
+      "source_commit": "4e346cb81bef6baceb0e7a2cf634b49cf14205f4",
+      "parts": [
+        {
+          "file": "portfolio-update-4e346cb81bef.tar.gz.part000",
+          "bytes": 8388608,
+          "sha256": "ece1ddf07c61eb3d8bfeefaf78b4ec593831cee19648ea8f8fd0a9da38647e1a"
+        },
+        {
+          "file": "portfolio-update-4e346cb81bef.tar.gz.part001",
+          "bytes": 8388608,
+          "sha256": "806dbac18c09b0f27618f4bef689c2d078d76222ee7e6e973f198feb0c728e69"
+        },
+        {
+          "file": "portfolio-update-4e346cb81bef.tar.gz.part002",
+          "bytes": 1014515,
+          "sha256": "c6a5b9fbe83cca1e9837119a6b091d74ce34a1a0f8413bb35415a5741dc5388e"
+        }
+      ],
+      "removed": []
     }
   ]
 }
