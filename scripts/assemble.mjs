@@ -20,6 +20,8 @@ function extract(parts) {
   execFileSync('tar', ['-xzf', archive, '-C', process.cwd()], { stdio: 'inherit' });
 }
 try {
+  // Repeated builds must not retain files outside the release manifest.
+  fs.rmSync(path.resolve('dist'), { recursive: true, force: true });
   extract(manifest.parts);
   for (const update of manifest.updates || []) {
     extract(update.parts);
@@ -30,6 +32,10 @@ try {
     }
   }
   if (!fs.existsSync('dist/index.html')) throw new Error('Missing website entry point');
+  const countFiles = directory => fs.readdirSync(directory, { withFileTypes: true })
+    .reduce((total, entry) => total + (entry.isDirectory()
+      ? countFiles(path.join(directory, entry.name)) : 1), 0);
+  if (countFiles('dist') !== manifest.files) throw new Error('Release file count mismatch');
   console.log(`Prepared portfolio release from ${manifest.source_commit}`);
 } finally {
   fs.rmSync(archive, { force: true });

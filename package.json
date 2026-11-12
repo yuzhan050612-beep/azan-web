@@ -1,21 +1,9 @@
 {
-  "name": "silk-html-demo",
+  "name": "azan-portfolio-release",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 127.0.0.1",
-    "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1"
-  },
-  "dependencies": {
-    "@react-three/fiber": "latest",
-    "ogl": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "three": "latest"
-  },
-  "devDependencies": {
-    "vite": "latest"
+    "build": "node scripts/assemble.mjs"
   }
 }
